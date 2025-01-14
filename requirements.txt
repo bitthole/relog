@@ -1,0 +1,23 @@
+# Web server and application dependencies
+uwsgi==2.0.28             # Specific version of uWSGI
+flask==2.2.5              # Flask web framework
+
+# # Database dependencies
+# sqlalchemy==2.0.5.post2   # SQLAlchemy for ORM
+# psycopg2==2.9.6           # PostgreSQL database adapter
+
+# # Utilities
+requests==2.31.0            # HTTP library for API calls
+# gunicorn==20.1.0          # Alternative WSGI server (if needed)
+
+# # Monitoring and logging
+# loguru==0.7.0             # Logging library
+# sentry-sdk==1.31.0        # Sentry integration for error tracking
+
+# # Testing
+# pytest==7.4.0             # Testing framework
+# pytest-cov==4.1.0         # Code coverage tool
+
+# # Additional dependencies (example for parsing or async features)
+# pydantic==1.10.4          # Data validation and settings management
+# aiohttp==3.8.5            # Async HTTP client/server
